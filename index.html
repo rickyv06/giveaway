@@ -12,130 +12,49 @@
 <meta property="og:url" content="https://rickyv06.github.io/giveaway/">
 <meta property="og:type" content="website">
 <meta name="robots" content="noindex">
+<link rel="preload" href="assets/fonts/lato-900.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/v1p.css">
-<script>/* lights: default=classic; optional l1|l2|l3 · mobile hero: ?m=1|2 · mock: ?mock=1 */
-(function(){
-  var sp=new URLSearchParams(location.search);
-  var q=(sp.get('lights')||'classic').toLowerCase();
-  if(!/^(classic|l[123])$/.test(q)) q='classic';
-  document.documentElement.setAttribute('data-lights', q);
-  var m=(sp.get('m')||'1');
-  if(!/^[12]$/.test(m)) m='1';
-  document.documentElement.setAttribute('data-m', m);
-  if(sp.get('mock')==='1' || sp.get('mock')==='true') document.documentElement.setAttribute('data-mock','1');
-})();</script>
+<link rel="stylesheet" href="assets/noscroll.css">
+<script>document.documentElement.setAttribute('data-lights','classic');</script>
 </head>
-<body>
-
-<header class="top">
-  <div class="wrap">
-    <a href="index.html" aria-label="Stellar Realty Group"><img class="logo" src="assets/brand/stellar-realty-group-light.svg" alt="Stellar Realty Group"></a>
+<body class="ns">
+<div class="ns-app">
+  <header class="ns-top">
+    <a class="ns-who" href="index.html" aria-label="Ricky Vasquez, REALTOR®, Stellar Realty Group">
+      <img src="assets/ricky-avatar.webp" alt="Ricky Vasquez" width="44" height="44">
+      <span><b>Ricky Vasquez, REALTOR®</b><span>Stellar Realty Group</span></span>
+    </a>
     <a class="pill" href="tel:+17262006226">726.200.6226</a>
-  </div>
-</header>
+  </header>
 
-<main>
-<section class="hero" style="padding:0">
-  <div class="lights twinkle xlights-classic" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="xlights xlights-l1" aria-hidden="true">
-  <svg class="xl-wire" viewBox="0 0 100 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 4 Q 17.0 30 34 4 M34 4 Q 50.5 30 67 4 M67 4 Q 83.5 30 100 4" fill="none" stroke="#1A3A2C" stroke-width="0.7" stroke-linecap="round"/></svg>
-  <span class="c9" style="left:6.12%;top:21.7px;--rot:4.4deg;--bulb:#C8102E"></span><span class="c9" style="left:12.92%;top:26.3px;--rot:3.5deg;--bulb:#F4C430"></span><span class="c9" style="left:24.48%;top:24.5px;--rot:-11.1deg;--bulb:#2F6B4F"></span><span class="c9" style="left:29.92%;top:19.5px;--rot:8.4deg;--bulb:#FFF6E0"></span><span class="c9" style="left:46.54%;top:26.3px;--rot:1.3deg;--bulb:#C8102E"></span><span class="c9" style="left:52.15%;top:26.9px;--rot:8.9deg;--bulb:#F4C430"></span><span class="c9" style="left:63.04%;top:19.5px;--rot:1.0deg;--bulb:#2F6B4F"></span><span class="c9" style="left:72.94%;top:21.7px;--rot:-16.0deg;--bulb:#FFF6E0"></span><span class="c9" style="left:85.15%;top:26.9px;--rot:-5.6deg;--bulb:#C8102E"></span><span class="c9" style="left:90.76%;top:24.5px;--rot:-15.4deg;--bulb:#C8102E"></span>
-</div><div class="xlights xlights-l2" aria-hidden="true">
-  <svg class="xl-wire thin" viewBox="0 0 100 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 4 Q 18 20 36 5 Q 54 22 72 6 Q 86 18 100 4" fill="none" stroke="#2A4036" stroke-width="0.3" stroke-linecap="round" opacity=".5"/></svg>
-  <span class="bokeh" style="left:24.2%;top:6.8px;width:44px;height:44px;opacity:0.28"></span><span class="bokeh" style="left:84.1%;top:8.7px;width:24px;height:24px;opacity:0.27"></span><span class="bokeh" style="left:68.3%;top:13.0px;width:46px;height:46px;opacity:0.24"></span><span class="bokeh" style="left:5.7%;top:16.7px;width:28px;height:28px;opacity:0.25"></span><span class="bokeh" style="left:89.5%;top:4.4px;width:23px;height:23px;opacity:0.16"></span><span class="bokeh" style="left:54.8%;top:6.9px;width:36px;height:36px;opacity:0.25"></span><span class="bokeh" style="left:23.3%;top:13.4px;width:27px;height:27px;opacity:0.22"></span><span class="bokeh" style="left:86.5%;top:17.2px;width:22px;height:22px;opacity:0.21"></span><span class="fairy" style="left:2.05%;top:8.4px;width:4.2px;height:4.2px;opacity:0.72;--d:0.14s"></span><span class="fairy" style="left:5.84%;top:12.9px;width:2.6px;height:2.6px;opacity:0.79;--d:0.17s"></span><span class="fairy" style="left:9.54%;top:15.8px;width:2.7px;height:2.7px;opacity:0.79;--d:1.37s"></span><span class="fairy" style="left:12.79%;top:18.0px;width:3.3px;height:3.3px;opacity:0.68;--d:1.35s"></span><span class="fairy" style="left:17.20%;top:17.3px;width:3.1px;height:3.1px;opacity:1.00;--d:1.62s"></span><span class="fairy" style="left:20.69%;top:17.1px;width:2.7px;height:2.7px;opacity:0.69;--d:0.85s"></span><span class="fairy" style="left:24.72%;top:13.8px;width:2.9px;height:2.9px;opacity:0.63;--d:1.58s"></span><span class="fairy" style="left:28.14%;top:12.1px;width:4.3px;height:4.3px;opacity:0.63;--d:0.60s"></span><span class="fairy" style="left:32.51%;top:5.3px;width:2.7px;height:2.7px;opacity:0.97;--d:1.43s"></span><span class="fairy" style="left:36.12%;top:9.1px;width:4.2px;height:4.2px;opacity:0.68;--d:0.24s"></span><span class="fairy" style="left:39.92%;top:12.4px;width:3.4px;height:3.4px;opacity:0.89;--d:1.68s"></span><span class="fairy" style="left:44.43%;top:15.3px;width:3.3px;height:3.3px;opacity:0.74;--d:2.15s"></span><span class="fairy" style="left:47.39%;top:16.9px;width:3.4px;height:3.4px;opacity:0.77;--d:0.70s"></span><span class="fairy" style="left:51.24%;top:18.9px;width:3.4px;height:3.4px;opacity:0.94;--d:1.38s"></span><span class="fairy" style="left:54.85%;top:17.9px;width:4.2px;height:4.2px;opacity:0.99;--d:2.32s"></span><span class="fairy" style="left:59.65%;top:12.2px;width:3.5px;height:3.5px;opacity:0.69;--d:1.00s"></span><span class="fairy" style="left:62.55%;top:9.6px;width:4.6px;height:4.6px;opacity:0.71;--d:1.96s"></span><span class="fairy" style="left:66.87%;top:5.1px;width:4.5px;height:4.5px;opacity:1.00;--d:1.39s"></span><span class="fairy" style="left:71.03%;top:9.4px;width:3.1px;height:3.1px;opacity:0.99;--d:1.45s"></span><span class="fairy" style="left:74.67%;top:14.5px;width:2.5px;height:2.5px;opacity:0.83;--d:1.26s"></span><span class="fairy" style="left:78.88%;top:16.1px;width:4.5px;height:4.5px;opacity:0.63;--d:0.46s"></span><span class="fairy" style="left:82.42%;top:18.4px;width:2.9px;height:2.9px;opacity:0.65;--d:2.23s"></span><span class="fairy" style="left:85.85%;top:17.9px;width:3.8px;height:3.8px;opacity:0.77;--d:1.46s"></span><span class="fairy" style="left:90.03%;top:16.5px;width:2.8px;height:2.8px;opacity:0.89;--d:0.60s"></span><span class="fairy" style="left:93.72%;top:12.7px;width:3.1px;height:3.1px;opacity:0.73;--d:1.88s"></span><span class="fairy" style="left:97.18%;top:8.3px;width:4.6px;height:4.6px;opacity:1.00;--d:0.18s"></span>
-</div><!-- L3 photo: Francesco Ungaro / Pexels https://www.pexels.com/photo/close-up-of-yellow-christmas-lights-247354/ -->
-<div class="xlights xlights-l3" aria-hidden="true"><img src="assets/lights/lights-strip-warm.webp" alt="" width="1600" height="160"></div>
-  <div class="wrap">
-    <div class="hero-main">
-      <span class="eyebrow">San Antonio · free to enter</span>
-      <h1>We're giving one family a home buying package</h1>
-      <p class="sub">This is <span class="strike">not a $100 giveaway</span>. One San Antonio future homeowner gets <b>free credit repair through CreditToClose, free movers, and a full appliance package</b>. Valued at over $3,000.</p>
-    </div>
-    <div class="video-card reveal reveal-d2" id="heroVideo">
-      <video id="adVideo" poster="assets/ad-poster-clean.jpg" muted loop playsinline preload="none" aria-label="Ricky announcing the giveaway at the San Antonio River Walk"></video>
-      <span class="tag"><i></i>Ricky</span>
-    </div>
-    <div class="hero-meta">
-      <div class="host reveal reveal-d1">
-        <img src="assets/ricky-avatar.webp" alt="Ricky Vasquez" width="44" height="44">
-        <div><b>Ricky Vasquez, REALTOR®</b><span>Stellar Realty Group</span></div>
-      </div>
-      <div class="badges reveal reveal-d2">
-        <span class="badge">Valued at <b>over $3,000</b></span>
-        <span class="badge">Free to enter</span>
-        <span class="badge">1 winner</span>
-      </div>
-      <div class="countdown reveal reveal-d3" id="countdown" aria-label="Time left to enter">
-        <div><b id="cd-d">00</b><span>Days</span></div>
-        <div><b id="cd-h">00</b><span>Hours</span></div>
-        <div><b id="cd-m">00</b><span>Min</span></div>
-      </div>
-      <div class="cta-row reveal reveal-d4" id="heroCta">
-        <a class="btn btn-primary" href="#enter">Enter free</a>
-        <span class="fine">Entries close Nov 30, 2026 at 11:59 PM CT<br>No purchase necessary. <a href="rules.html">Official Rules</a> · <a href="tel:+17262006226">726.200.6226</a></span>
+  <main class="ns-main">
+    <div class="ns-media">
+      <div class="ns-video">
+        <video id="adVideoDesk" poster="assets/ad-poster-clean.jpg" muted loop playsinline preload="none" aria-label="Ricky announcing the giveaway at the San Antonio River Walk"></video>
+        <span class="tag"><i></i>Ricky</span>
       </div>
     </div>
-  </div>
-</section>
 
-<section class="on-light" id="prizes">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">What one person wins</span>
-      <h2>Everything from ready to moved in.</h2>
-      <p>Three pieces that usually stand between renting and owning, in one package for one winner.</p>
-    </div>
-    <div class="prizes">
-      <article class="prize reveal reveal-d1">
-        <span class="num">01</span>
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#2F6B4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg></div>
-        <h3>Free credit repair</h3>
-        <p>Mortgage readiness credit repair from CreditToClose. Your file is reviewed, disputes are sent where appropriate, and progress is tracked toward preapproval.</p>
-        <div class="by">Provided by CreditToClose · valued at $1,500</div>
-      </article>
-      <article class="prize reveal reveal-d2">
-        <span class="num">02</span>
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 7h13v9H1z"/><path d="M14 10h4l3 3v3h-7"/><circle cx="5.5" cy="18" r="2"/><circle cx="17.5" cy="18" r="2"/></svg></div>
-        <h3>Free movers</h3>
-        <p>Full moving help. Packing, loading and delivery into your new home are covered, including if you're relocating to San Antonio.</p>
-        <div class="by">Provided by Stellar Realty Group</div>
-      </article>
-      <article class="prize reveal reveal-d3">
-        <span class="num">03</span>
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#C4A35A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M5 9h14"/><path d="M9 5v1M9 12v3"/></svg></div>
-        <h3>Full appliance package</h3>
-        <p>The fridge, washer and dryer most homes don't come with, plus a stove, microwave and dishwasher.</p>
-        <div class="by">Provided by Stellar Realty Group</div>
-      </article>
-    </div>
-    <div class="value-bar reveal reveal-d4">
-      <div><strong>Total package valued at over $3,000</strong><br><small>See <a href="rules.html" style="color:#fff">Official Rules</a> for prize details and approximate retail value.</small></div>
-      <a class="btn btn-primary" href="#enter" style="padding:14px 20px">Enter free</a>
-    </div>
-  </div>
-</section>
+    <section class="ns-entry" id="enter" aria-label="Enter the giveaway">
+      <div class="ns-intro">
+        <div class="ns-copy">
+          <h1>We're giving one family a <span class="r">home buying package</span></h1>
+          <div class="ns-cd" id="countdown" aria-label="Time left to enter">
+            <span class="lbl">Free to enter · closes in</span>
+            <span class="t"><b id="cd-d">00</b><small>d</small><b id="cd-h">00</b><small>h</small><b id="cd-m">00</b><small>m</small></span>
+            <button type="button" class="ns-details" data-info="how">Details</button>
+          </div>
+        </div>
+        <div class="ns-tile"><video id="adVideoTile" poster="assets/ad-poster-clean.jpg" muted loop playsinline preload="none" aria-label="Ricky announcing the giveaway at the San Antonio River Walk"></video></div>
+      </div>
+      <ul class="ns-chips" aria-label="What the winner gets">
+        <li><button type="button" data-info="prizes"><i></i>Free movers</button></li>
+        <li><button type="button" data-info="prizes"><i></i>Full appliance package</button></li>
+        <li><button type="button" data-info="prizes"><i></i>Credit repair by CreditToClose ($1,500)</button></li>
+        <li class="tot"><button type="button" data-info="prizes">Over <b>$3,000</b> total</button></li>
+      </ul>
 
-<section class="dark" id="how">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">How it works</span>
-      <h2>Three steps. One winner.</h2>
-      <p>It takes about a minute. No purchase, no cost and no obligation to work with anyone.</p>
-    </div>
-    <div class="steps">
-      <div class="step reveal reveal-d1"><span class="n">1</span><div><h3>Enter below</h3><p>Add your name, phone and email so we can reach you if you win.</p></div></div>
-      <div class="step reveal reveal-d2"><span class="n">2</span><div><h3>Answer a few questions</h3><p>Tell us where you are in your home buying journey. Quick taps, no wrong answers.</p></div></div>
-      <div class="step reveal reveal-d3"><span class="n">3</span><div><h3>One winner is chosen</h3><p>Winner announced by December 4, 2026, then contacted by phone and email.</p></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="entry" id="enter">
-  <div class="wrap">
-    <div class="sec-head" style="text-align:center;margin-left:auto;margin-right:auto">
-      <span class="eyebrow">Free entry · about a minute</span>
-      <h2>Answer a few questions and you're in.</h2>
-    </div>
-    <div class="form-shell" id="formCard"><div class="lights twinkle xlights-classic" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="xlights xlights-l1" aria-hidden="true">
+      <div class="form-shell" id="formCard"><div class="lights twinkle xlights-classic" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="xlights xlights-l1" aria-hidden="true">
   <svg class="xl-wire" viewBox="0 0 100 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 4 Q 25.0 26 50 4 M50 4 Q 75.0 26 100 4" fill="none" stroke="#1A3A2C" stroke-width="0.7" stroke-linecap="round"/></svg>
   <span class="c9" style="left:9.00%;top:18.5px;--rot:4.5deg;--bulb:#C8102E"></span><span class="c9" style="left:19.00%;top:22.4px;--rot:-15.2deg;--bulb:#F4C430"></span><span class="c9" style="left:27.50%;top:22.9px;--rot:-7.2deg;--bulb:#2F6B4F"></span><span class="c9" style="left:44.00%;top:16.6px;--rot:-8.9deg;--bulb:#FFF6E0"></span><span class="c9" style="left:59.00%;top:18.5px;--rot:7.6deg;--bulb:#C8102E"></span><span class="c9" style="left:77.50%;top:22.9px;--rot:5.7deg;--bulb:#F4C430"></span><span class="c9" style="left:86.00%;top:20.9px;--rot:12.5deg;--bulb:#2F6B4F"></span>
 </div><div class="xlights xlights-l2" aria-hidden="true">
@@ -147,153 +66,133 @@
         <div class="row"><span id="stepLabel">Question 1 of 13</span><span id="stepPct">0%</span></div>
       </div>
       <form class="form-body" id="entryForm" novalidate autocomplete="on" data-steps="13">
-        <div class="fstep active" data-step="1"><span class="qn">01</span><h3>Let's get you entered. What's your name?</h3><p class="help">So we know who to congratulate.</p><div class="fields two"><div class="fl"><input id="first_name" name="first_name" type="text" placeholder=" " autocomplete="given-name" enterkeyhint="next" autocapitalize="words" required><label for="first_name">First name</label></div><div class="fl"><input id="last_name" name="last_name" type="text" placeholder=" " autocomplete="family-name" enterkeyhint="next" autocapitalize="words" required><label for="last_name">Last name</label></div></div><div class="err" data-err>Please add your first and last name.</div><div class="nav"><button type="button" class="btn btn-primary next" data-next>Continue <span class="arr">→</span></button></div><p class="hint desk-only">Press Enter ↵</p></div><div class="fstep" data-step="2"><span class="qn">02</span><h3>What's the best phone to reach you if you win?</h3><p class="help">The winner is contacted by phone, text and email.</p><div class="fields"><div class="fl"><input id="phone" name="phone" type="tel" placeholder=" " autocomplete="tel" inputmode="numeric" enterkeyhint="next" required><label for="phone">Mobile phone</label></div><label class="consent"><input type="checkbox" id="sms_consent" name="sms_consent" value="yes"><span class="box"></span><span class="ct">I agree to receive calls and text messages, including automated and marketing messages, from Ricardo Vasquez and Stellar Realty Group (726.200.6226) about this giveaway and real estate services at the number above. Consent is not a condition of entry or purchase. Message frequency varies. Msg and data rates may apply. Reply STOP to opt out, HELP for help.</span></label></div><div class="err" data-err>Please enter a valid 10 digit phone number.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button><button type="button" class="btn btn-primary next" data-next>Continue <span class="arr">→</span></button></div></div><div class="fstep" data-step="3"><span class="qn">03</span><h3>And your email?</h3><p class="help">We'll send your entry confirmation here.</p><div class="fields"><div class="fl"><input id="email" name="email" type="email" placeholder=" " autocomplete="email" inputmode="email" enterkeyhint="next" required><label for="email">Email address</label></div></div><div class="err" data-err>Please enter a valid email address.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button><button type="button" class="btn btn-primary next" data-next>Continue <span class="arr">→</span></button></div><p class="note"><svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Your info stays private and is never sold.</p></div><div class="fstep" data-step="4" data-field="current_situation"><span class="qn">04</span><h3>Where do you live right now?</h3><div class="opts"><button type="button" class="opt" data-v="Renting"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7a4 4 0 1 1-3.9 4.9L3 20v-3h3v-3h3l1.1-1.1A4 4 0 0 1 15 7z"/><circle cx="16" cy="8" r="1"/></svg><span class="ot"><b>Renting</b><small>Apartment or house</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Living with family"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></svg><span class="ot"><b>Living with family</b><small>With parents or relatives</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Own a home"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg><span class="ot"><b>I own a home</b><small>Looking to move up or relocate</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Other"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span class="ot"><b>Something else</b><small>Military housing, roommates, other</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="5" data-field="buy_timeline"><span class="qn">05</span><h3>When would you like to be moved in?</h3><div class="opts"><button type="button" class="opt" data-v="0 to 3 months"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg><span class="ot"><b>As soon as possible</b><small>Within 3 months</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="3 to 6 months"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ot"><b>3 to 6 months</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="6 to 12 months"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span class="ot"><b>6 to 12 months</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="12 months plus"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6zM12 14c0-4 3-6 7-6 0 4-3 6-7 6z"/></svg><span class="ot"><b>A year or more</b><small>Getting ready early</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Just exploring"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>Just exploring</b><small>Seeing what is possible</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="6" data-field="sa_area_status"><span class="qn">06</span><h3>Are you in the San Antonio area?</h3><p class="help">This giveaway is open to the San Antonio area only.</p><div class="opts"><button type="button" class="opt" data-v="Live in San Antonio area"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><span class="ot"><b>Yes, I live here</b><small>San Antonio or a nearby city</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Moving to San Antonio area"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 7h13v9H1z"/><path d="M14 10h4l3 3v3h-7"/><circle cx="5.5" cy="18" r="2"/><circle cx="17.5" cy="18" r="2"/></svg><span class="ot"><b>I'm moving here</b><small>PCS orders, a new job or family</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Outside San Antonio area"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span class="ot"><b>No, I live elsewhere</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="7" data-field="preferred_area"><span class="qn">07</span><h3>Which part of town interests you?</h3><div class="opts grid2"><button type="button" class="opt" data-v="Central / Downtown"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l6-3v16M11 21V10h8v11"/><path d="M14 13h2M14 16h2M7 11h2M7 14h2"/></svg><span class="ot"><b>Central</b><small>Downtown, Alamo Heights</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="North / Stone Oak"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>North</b><small>Stone Oak, Shavano</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="West / Alamo Ranch"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>West</b><small>Alamo Ranch, Westover Hills</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Northeast / Converse / Live Oak"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>Northeast</b><small>Live Oak, Converse</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="South Side"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>South Side</b><small>Southside, Brooks</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Schertz / Cibolo / New Braunfels"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>Schertz, Cibolo</b><small>New Braunfels, Randolph</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Boerne / Helotes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6zM12 14c0-4 3-6 7-6 0 4-3 6-7 6z"/></svg><span class="ot"><b>Hill Country</b><small>Boerne, Helotes</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not sure yet"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5V14"/><circle cx="12" cy="17" r=".6"/></svg><span class="ot"><b>Not sure yet</b><small>Help me decide</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="8" data-field="price_range"><span class="qn">08</span><h3>What price range feels right?</h3><p class="help">A rough idea is perfect.</p><div class="opts grid2"><button type="button" class="opt" data-v="Under $200K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>Under $200K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$200K to $300K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$200K to $300K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$300K to $400K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$300K to $400K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$400K to $500K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$400K to $500K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$500K plus"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$500K and up</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not sure"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5V14"/><circle cx="12" cy="17" r=".6"/></svg><span class="ot"><b>Not sure yet</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="9" data-field="preapproval_status"><span class="qn">09</span><h3>Are you preapproved for a mortgage?</h3><div class="opts"><button type="button" class="opt" data-v="Yes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg><span class="ot"><b>Yes, I'm preapproved</b><small>I have a letter from a lender</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not yet, want to be"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6zM12 14c0-4 3-6 7-6 0 4-3 6-7 6z"/></svg><span class="ot"><b>Not yet</b><small>But I'd like to be</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="No"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg><span class="ot"><b>No</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="10" data-field="credit_range"><span class="qn">10</span><h3>Roughly, where is your credit today?</h3><p class="help">Your best guess is fine. This is not a credit check.</p><div class="opts grid2"><button type="button" class="opt" data-v="720 plus"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>720 and up</b><small>Excellent</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="680 to 719"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>680 to 719</b><small>Good</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="620 to 679"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>620 to 679</b><small>Fair</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="580 to 619"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>580 to 619</b><small>Building</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Under 580"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>Under 580</b><small>Needs work</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not sure"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5V14"/><circle cx="12" cy="17" r=".6"/></svg><span class="ot"><b>Not sure</b><small>No idea yet</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="11" data-field="military_veteran"><span class="qn">11</span><h3>Are you military or a veteran?</h3><p class="help">Including active duty, Guard, Reserve and military spouses.</p><div class="opts grid2"><button type="button" class="opt" data-v="Yes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="15" r="5"/><path d="M8.5 11L6 3h4l2 5 2-5h4l-2.5 8"/></svg><span class="ot"><b>Yes</b><small>Thank you for your service</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="No"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg><span class="ot"><b>No</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="12" data-field="first_time_buyer"><span class="qn">12</span><h3>Would this be your first home?</h3><div class="opts grid2"><button type="button" class="opt" data-v="Yes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg><span class="ot"><b>Yes, my first home</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="No"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg><span class="ot"><b>No, I've owned before</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="13"><span class="qn">13</span><h3>Last one. What's the biggest thing holding you back?</h3><p class="help">Optional. Credit, down payment, timing, anything at all.</p><div class="fields"><div class="fl ta"><textarea id="biggest_obstacle" name="biggest_obstacle" maxlength="600" placeholder=" "></textarea><label for="biggest_obstacle">Type here, or skip</label></div></div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button><button type="submit" class="btn btn-primary next" id="submitBtn">Submit my entry <span class="arr">→</span></button></div><p class="note">By submitting, you agree to the <a href="rules.html">Official Rules</a>. No purchase necessary. You do not have to use any services from Ricardo Vasquez, Stellar Realty Group or CreditToClose to enter or win.</p></div>
+        <div class="fstep active" data-step="1"><span class="qn">01</span><h3>Let's get you entered. What's your name?</h3><p class="help">So we know who to congratulate.</p><div class="fields two"><div class="fl"><input id="first_name" name="first_name" type="text" placeholder=" " autocomplete="given-name" enterkeyhint="next" autocapitalize="words" required><label for="first_name">First name</label></div><div class="fl"><input id="last_name" name="last_name" type="text" placeholder=" " autocomplete="family-name" enterkeyhint="next" autocapitalize="words" required><label for="last_name">Last name</label></div></div><div class="err" data-err>Please add your first and last name.</div><div class="nav"><button type="button" class="btn btn-primary next" data-next>Start my free entry <span class="arr">→</span></button></div></div><div class="fstep" data-step="2"><span class="qn">02</span><h3>What's the best phone to reach you if you win?</h3><p class="help">The winner is contacted by phone, text and email.</p><div class="fields"><div class="fl"><input id="phone" name="phone" type="tel" placeholder=" " autocomplete="tel" inputmode="numeric" enterkeyhint="next" required><label for="phone">Mobile phone</label></div><label class="consent"><input type="checkbox" id="sms_consent" name="sms_consent" value="yes"><span class="box"></span><span class="ct">I agree to receive calls and text messages, including automated and marketing messages, from Ricardo Vasquez and Stellar Realty Group (726.200.6226) about this giveaway and real estate services at the number above. Consent is not a condition of entry or purchase. Message frequency varies. Msg and data rates may apply. Reply STOP to opt out, HELP for help.</span></label></div><div class="err" data-err>Please enter a valid 10 digit phone number.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button><button type="button" class="btn btn-primary next" data-next>Continue <span class="arr">→</span></button></div></div><div class="fstep" data-step="3"><span class="qn">03</span><h3>And your email?</h3><p class="help">We'll send your entry confirmation here.</p><div class="fields"><div class="fl"><input id="email" name="email" type="email" placeholder=" " autocomplete="email" inputmode="email" enterkeyhint="next" required><label for="email">Email address</label></div></div><div class="err" data-err>Please enter a valid email address.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button><button type="button" class="btn btn-primary next" data-next>Continue <span class="arr">→</span></button></div><p class="note"><svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Your info stays private and is never sold.</p></div><div class="fstep" data-step="4" data-field="current_situation"><span class="qn">04</span><h3>Where do you live right now?</h3><div class="opts"><button type="button" class="opt" data-v="Renting"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7a4 4 0 1 1-3.9 4.9L3 20v-3h3v-3h3l1.1-1.1A4 4 0 0 1 15 7z"/><circle cx="16" cy="8" r="1"/></svg><span class="ot"><b>Renting</b><small>Apartment or house</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Living with family"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></svg><span class="ot"><b>Living with family</b><small>With parents or relatives</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Own a home"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg><span class="ot"><b>I own a home</b><small>Looking to move up or relocate</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Other"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span class="ot"><b>Something else</b><small>Military housing, roommates, other</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="5" data-field="buy_timeline"><span class="qn">05</span><h3>When would you like to be moved in?</h3><div class="opts"><button type="button" class="opt" data-v="0 to 3 months"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg><span class="ot"><b>As soon as possible</b><small>Within 3 months</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="3 to 6 months"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ot"><b>3 to 6 months</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="6 to 12 months"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span class="ot"><b>6 to 12 months</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="12 months plus"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6zM12 14c0-4 3-6 7-6 0 4-3 6-7 6z"/></svg><span class="ot"><b>A year or more</b><small>Getting ready early</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Just exploring"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>Just exploring</b><small>Seeing what is possible</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="6" data-field="sa_area_status"><span class="qn">06</span><h3>Are you in the San Antonio area?</h3><p class="help">This giveaway is open to the San Antonio area only.</p><div class="opts"><button type="button" class="opt" data-v="Live in San Antonio area"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><span class="ot"><b>Yes, I live here</b><small>San Antonio or a nearby city</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Moving to San Antonio area"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 7h13v9H1z"/><path d="M14 10h4l3 3v3h-7"/><circle cx="5.5" cy="18" r="2"/><circle cx="17.5" cy="18" r="2"/></svg><span class="ot"><b>I'm moving here</b><small>PCS orders, a new job or family</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Outside San Antonio area"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span class="ot"><b>No, I live elsewhere</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="7" data-field="preferred_area"><span class="qn">07</span><h3>Which part of town interests you?</h3><div class="opts grid2"><button type="button" class="opt" data-v="Central / Downtown"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l6-3v16M11 21V10h8v11"/><path d="M14 13h2M14 16h2M7 11h2M7 14h2"/></svg><span class="ot"><b>Central</b><small>Downtown, Alamo Heights</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="North / Stone Oak"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>North</b><small>Stone Oak, Shavano</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="West / Alamo Ranch"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>West</b><small>Alamo Ranch, Westover Hills</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Northeast / Converse / Live Oak"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>Northeast</b><small>Live Oak, Converse</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="South Side"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>South Side</b><small>Southside, Brooks</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Schertz / Cibolo / New Braunfels"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span class="ot"><b>Schertz, Cibolo</b><small>New Braunfels, Randolph</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Boerne / Helotes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6zM12 14c0-4 3-6 7-6 0 4-3 6-7 6z"/></svg><span class="ot"><b>Hill Country</b><small>Boerne, Helotes</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not sure yet"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5V14"/><circle cx="12" cy="17" r=".6"/></svg><span class="ot"><b>Not sure yet</b><small>Help me decide</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="8" data-field="price_range"><span class="qn">08</span><h3>What price range feels right?</h3><p class="help">A rough idea is perfect.</p><div class="opts grid2"><button type="button" class="opt" data-v="Under $200K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>Under $200K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$200K to $300K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$200K to $300K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$300K to $400K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$300K to $400K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$400K to $500K"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$400K to $500K</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="$500K plus"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg><span class="ot"><b>$500K and up</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not sure"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5V14"/><circle cx="12" cy="17" r=".6"/></svg><span class="ot"><b>Not sure yet</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="9" data-field="preapproval_status"><span class="qn">09</span><h3>Are you preapproved for a mortgage?</h3><div class="opts"><button type="button" class="opt" data-v="Yes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg><span class="ot"><b>Yes, I'm preapproved</b><small>I have a letter from a lender</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not yet, want to be"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12c0-4-3-6-7-6 0 4 3 6 7 6zM12 14c0-4 3-6 7-6 0 4-3 6-7 6z"/></svg><span class="ot"><b>Not yet</b><small>But I'd like to be</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="No"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg><span class="ot"><b>No</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="10" data-field="credit_range"><span class="qn">10</span><h3>Roughly, where is your credit today?</h3><p class="help">Your best guess is fine. This is not a credit check.</p><div class="opts grid2"><button type="button" class="opt" data-v="720 plus"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>720 and up</b><small>Excellent</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="680 to 719"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>680 to 719</b><small>Good</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="620 to 679"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>620 to 679</b><small>Fair</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="580 to 619"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>580 to 619</b><small>Building</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Under 580"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg><span class="ot"><b>Under 580</b><small>Needs work</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="Not sure"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5V14"/><circle cx="12" cy="17" r=".6"/></svg><span class="ot"><b>Not sure</b><small>No idea yet</small></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="11" data-field="military_veteran"><span class="qn">11</span><h3>Are you military or a veteran?</h3><p class="help">Including active duty, Guard, Reserve and military spouses.</p><div class="opts grid2"><button type="button" class="opt" data-v="Yes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="15" r="5"/><path d="M8.5 11L6 3h4l2 5 2-5h4l-2.5 8"/></svg><span class="ot"><b>Yes</b><small>Thank you for your service</small></span><span class="tick"></span></button><button type="button" class="opt" data-v="No"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg><span class="ot"><b>No</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="12" data-field="first_time_buyer"><span class="qn">12</span><h3>Would this be your first home?</h3><div class="opts grid2"><button type="button" class="opt" data-v="Yes"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg><span class="ot"><b>Yes, my first home</b></span><span class="tick"></span></button><button type="button" class="opt" data-v="No"><svg class="oi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg><span class="ot"><b>No, I've owned before</b></span><span class="tick"></span></button></div><div class="err" data-err>Pick one to continue.</div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button></div></div><div class="fstep" data-step="13"><span class="qn">13</span><h3>Last one. What's the biggest thing holding you back?</h3><p class="help">Optional. Credit, down payment, timing, anything at all.</p><div class="fields"><div class="fl ta"><textarea id="biggest_obstacle" name="biggest_obstacle" maxlength="600" placeholder=" "></textarea><label for="biggest_obstacle">Type here, or skip</label></div></div><div class="nav"><button type="button" class="back" data-back aria-label="Back">←</button><button type="submit" class="btn btn-primary next" id="submitBtn">Submit my entry <span class="arr">→</span></button></div><p class="note">By submitting, you agree to the <a href="rules.html">Official Rules</a>. No purchase necessary. You do not have to use any services from Ricardo Vasquez, Stellar Realty Group or CreditToClose to enter or win.</p></div>
         <div class="fstep sending" data-step="sending"><div class="spinner"></div><h3 style="text-align:center;margin-top:18px">Locking in your entry…</h3></div>
         <input type="text" name="company_website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
       </form>
     </div></div>
-    <div class="trust"><span>🔒 Private and secure</span><span>No purchase necessary</span><span>No credit check</span></div>
-  </div>
-</section>
+      <p class="ns-trust"><span>🔒 Private and secure</span><span>No purchase necessary</span><span>No credit check</span></p>
+    </section>
+  </main>
 
-<section class="on-light" id="about" style="background:var(--paper)">
-  <div class="wrap about">
-    <div class="photo">
-      <img src="assets/ricky-portrait.webp" alt="Ricardo Vasquez, San Antonio REALTOR®">
-      <div class="nm"><b>Ricardo "Ricky" Vasquez</b><span>Texas REALTOR® · Stellar Realty Group</span></div>
+  <div class="ns-foot" role="contentinfo">
+    <p><a href="rules.html">Official Rules</a><span class="sep">·</span><a href="privacy.html">Privacy</a><span class="sep">·</span><button type="button" class="ns-link" data-info="prizes">Details</button><span class="sep">·</span><span class="brk">Brokered by Realty of America</span></p>
+    <p class="trec"><a href="assets/IABS-Ricardo-Vasquez-Realty-of-America.pdf" target="_blank" rel="noopener">TREC Information About Brokerage Services</a><span class="sep">·</span><a href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5.pdf" target="_blank" rel="noopener">TREC Consumer Protection Notice</a></p>
+  </div>
+</div>
+
+<dialog class="ns-sheet" id="info" aria-label="Giveaway details">
+  <div class="sh-head">
+    <div class="sh-tabs" role="tablist">
+      <button type="button" data-go="prizes">Prizes</button><button type="button" data-go="how">How it works</button><button type="button" data-go="who">Who can enter</button><button type="button" data-go="faq">FAQ</button><button type="button" data-go="about">About us</button>
     </div>
-    <div>
+    <button type="button" class="sh-x" data-close aria-label="Close">×</button>
+  </div>
+  <div class="sh-body" id="infoBody">
+    <section id="i-prizes">
+      <span class="eyebrow">What one person wins</span>
+      <h2>Everything from ready to moved in.</h2>
+      <p class="lead">Three pieces that usually stand between renting and owning, in one package for one winner.</p>
+      <div class="sh-prizes">
+        <article><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#2F6B4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/></svg></div><div><h3>Free credit repair</h3><p>Mortgage readiness credit repair from CreditToClose. Your file is reviewed, disputes are sent where appropriate, and progress is tracked toward preapproval.</p><div class="by">Provided by CreditToClose · valued at $1,500</div></div></article>
+        <article><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 7h13v9H1z"/><path d="M14 10h4l3 3v3h-7"/><circle cx="5.5" cy="18" r="2"/><circle cx="17.5" cy="18" r="2"/></svg></div><div><h3>Free movers</h3><p>Full moving help. Packing, loading and delivery into your new home are covered, including if you're relocating to San Antonio.</p><div class="by">Provided by Stellar Realty Group</div></div></article>
+        <article><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#C4A35A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M5 9h14"/><path d="M9 5v1M9 12v3"/></svg></div><div><h3>Full appliance package</h3><p>The fridge, washer and dryer most homes don't come with, plus a stove, microwave and dishwasher.</p><div class="by">Provided by Stellar Realty Group</div></div></article>
+      </div>
+      <p class="sh-total"><b>Total package valued at over $3,000.</b> See the <a href="rules.html">Official Rules</a> for prize details and approximate retail value.</p>
+    </section>
+    <section id="i-how">
+      <span class="eyebrow">How it works</span>
+      <h2>Three steps. One winner.</h2>
+      <p class="lead">It takes about a minute. No purchase, no cost and no obligation to work with anyone.</p>
+      <ol class="sh-steps">
+        <li><b>Enter on this page</b><span>Add your name, phone and email so we can reach you if you win.</span></li>
+        <li><b>Answer a few questions</b><span>Tell us where you are in your home buying journey. Quick taps, no wrong answers.</span></li>
+        <li><b>One winner is chosen</b><span>Winner announced by December 4, 2026, then contacted by phone and email.</span></li>
+      </ol>
+    </section>
+    <section id="i-who">
+      <span class="eyebrow">Who can enter</span>
+      <h2>Future San Antonio homeowners.</h2>
+      <p>Legal U.S. residents 18 and older who want to become a homeowner, including first time buyers and veterans, and who live in the San Antonio area or are relocating here. See the <a href="rules.html">Official Rules</a> for the exact eligible area.</p>
+      <p>If you're relocating here for PCS orders, a new job or family, you can enter, and the free movers can bring you to your new San Antonio home.</p>
+      <p>Entries close November 30, 2026 at 11:59 PM CT. One entry per person.</p>
+    </section>
+    <section id="i-faq">
+      <span class="eyebrow">Questions</span>
+      <h2>Good to know.</h2>
+      <div class="faq">
+        <details open><summary>Is it really free to enter?</summary><p>Yes. No purchase or payment of any kind is necessary to enter or win, and a purchase will not improve your chances.</p></details>
+        <details><summary>Do I have to buy a home with Ricky to win?</summary><p>No. You are not required to use the services of Ricardo Vasquez, Stellar Realty Group, CreditToClose or any partner to enter or win.</p></details>
+        <details><summary>I'm moving to San Antonio. Can I enter?</summary><p>Yes. If you're relocating here for PCS orders, a new job or family, you can enter, and the free movers can bring you to your new San Antonio home.</p></details>
+        <details><summary>Who can enter?</summary><p>Legal U.S. residents 18 and older who want to become a homeowner, including first time buyers and veterans, and who live in the San Antonio area or are relocating here. See the <a href="rules.html">Official Rules</a> for the exact eligible area.</p></details>
+        <details><summary>When does it end and how is the winner picked?</summary><p>Entries close November 30, 2026 at 11:59 PM CT. Winner announced by December 4, 2026 and contacted by phone and email. Full details are in the <a href="rules.html">Official Rules</a>.</p></details>
+        <details><summary>What if I'm not ready to buy yet?</summary><p>Enter anyway. The package is built to help someone go from getting financially ready to moving in, so it's fine if you're just starting.</p></details>
+        <details><summary>Can I enter more than once?</summary><p>One entry per person. Duplicate entries are not counted.</p></details>
+        <details><summary>Will you check my credit?</summary><p>No. The credit question is your own estimate. Nothing on this form runs a credit check.</p></details>
+      </div>
+    </section>
+    <section id="i-about">
       <span class="eyebrow">Who's behind this</span>
-      <h2 style="font-size:34px;line-height:1.1;font-weight:900;letter-spacing:-.02em;margin-top:10px">Hey, I'm Ricky.</h2>
+      <h2>Hey, I'm Ricky.</h2>
       <p>I'm a San Antonio REALTOR® with Stellar Realty Group, brokered by Realty of America. I help people go from "someday" to keys in hand, and a lot of that work starts long before the house hunt, with credit, budget and a real plan.</p>
       <p>This giveaway is our way of taking the three biggest hurdles off one person's plate. Whether you win or not, you'll walk away knowing your next step.</p>
-      <ul>
-        <li>First time buyers and growing families</li>
-        <li>Military and veterans in Military City USA</li>
-        <li>Credit and budget planning before you shop</li>
-      </ul>
-      <div class="strip">
-        <img src="assets/ricky-riverwalk-900.webp" alt="Ricky on the San Antonio River Walk">
-        <img src="assets/ricky-stairs.jpg" alt="Ricky in downtown San Antonio">
-        <img src="assets/ricky-full.webp" alt="Ricky Vasquez, Stellar Realty Group">
+      <ul class="sh-list"><li>First time buyers and growing families</li><li>Military and veterans in Military City USA</li><li>Credit and budget planning before you shop</li></ul>
+      <div class="sh-strip">
+        <img loading="lazy" src="assets/ricky-riverwalk-900.webp" alt="Ricky on the San Antonio River Walk">
+        <img loading="lazy" src="assets/ricky-stairs.jpg" alt="Ricky in downtown San Antonio">
+        <img loading="lazy" src="assets/ricky-full.webp" alt="Ricky Vasquez, Stellar Realty Group">
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="on-light" id="faq" style="background:var(--paper-2)">
-  <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Questions</span><h2>Good to know.</h2></div>
-    <div class="faq">
-      <details open><summary>Is it really free to enter?</summary><p>Yes. No purchase or payment of any kind is necessary to enter or win, and a purchase will not improve your chances.</p></details>
-      <details><summary>Do I have to buy a home with Ricky to win?</summary><p>No. You are not required to use the services of Ricardo Vasquez, Stellar Realty Group, CreditToClose or any partner to enter or win.</p></details>
-      <details><summary>I'm moving to San Antonio. Can I enter?</summary><p>Yes. If you're relocating here for PCS orders, a new job or family, you can enter, and the free movers can bring you to your new San Antonio home.</p></details>
-      <details><summary>Who can enter?</summary><p>Legal U.S. residents 18 and older who want to become a homeowner, including first time buyers and veterans, and who live in the San Antonio area or are relocating here. See the <a href="rules.html">Official Rules</a> for the exact eligible area.</p></details>
-      <details><summary>When does it end and how is the winner picked?</summary><p>Entries close November 30, 2026 at 11:59 PM CT. Winner announced by December 4, 2026 and contacted by phone and email. Full details are in the <a href="rules.html">Official Rules</a>.</p></details>
-      <details><summary>What if I'm not ready to buy yet?</summary><p>Enter anyway. The package is built to help someone go from getting financially ready to moving in, so it's fine if you're just starting.</p></details>
-      <details><summary>Can I enter more than once?</summary><p>One entry per person. Duplicate entries are not counted.</p></details>
-      <details><summary>Will you check my credit?</summary><p>No. The credit question is your own estimate. Nothing on this form runs a credit check.</p></details>
-    </div>
-  </div>
-</section>
-
-<section class="dark final">
-  <div class="wrap">
-    <h2>One person. The entire package.</h2>
-    <p>Credit repair, movers and appliances, valued at over $3,000. Entries close November 30, 2026.</p>
-    <a class="btn btn-primary" href="#enter">Enter the giveaway</a>
-  </div>
-</section>
-</main>
-
-<footer>
-  <div class="wrap">
-    <img class="logo" src="assets/stellar-realty-group-dark.svg" alt="Stellar Realty Group">
-    <div class="cols">
-      <div>
-        <p style="color:#fff;font-weight:900">Ricardo Vasquez, REALTOR®</p>
-        <p style="margin-top:8px"><a href="tel:+17262006226">726.200.6226</a> · <a href="mailto:ricardo@stellarrealtytx.com">ricardo@stellarrealtytx.com</a></p>
-      </div>
-      <div>
-        <h4>Texas Real Estate Commission</h4>
-        <div class="links">
-          <a href="assets/IABS-Ricardo-Vasquez-Realty-of-America.pdf" target="_blank" rel="noopener">Information About Brokerage Services</a>
-          <a href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5.pdf" target="_blank" rel="noopener">Consumer Protection Notice</a>
-        </div>
-      </div>
-      <div>
-        <h4>Giveaway</h4>
-        <div class="links">
-          <a href="rules.html">Official Rules</a>
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="https://www.instagram.com/rickyxvasquez/" target="_blank" rel="noopener">Instagram @rickyxvasquez</a>
-        </div>
-      </div>
-    </div>
-    <div class="legal">
-      <div class="eho"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 18L20 5l16 13"/><path d="M8 15v20h24V15"/><path d="M14 22h12M14 28h12"/></svg>Equal Housing Opportunity</div>
+      <p class="sh-contact"><b>Ricardo Vasquez, REALTOR®</b><br><a href="tel:+17262006226">726.200.6226</a> · <a href="mailto:ricardo@stellarrealtytx.com">ricardo@stellarrealtytx.com</a> · <a href="https://www.instagram.com/rickyxvasquez/" target="_blank" rel="noopener">Instagram @rickyxvasquez</a></p>
+    </section>
+    <section class="sh-legal">
       <p>NO PURCHASE NECESSARY. Void where prohibited. Open to legal U.S. residents 18 and older in, or relocating to, the San Antonio area. Entries close November 30, 2026. See <a href="rules.html">Official Rules</a> for full details, eligibility, odds and prize descriptions. This promotion is in no way sponsored, endorsed, administered by or associated with Meta, Facebook or Instagram.</p>
-      <p>© 2026 Stellar Realty Group. All rights reserved.</p>
-      <p class="broker-fine">Brokered by Realty of America</p>
-    </div>
+      <p><a href="assets/IABS-Ricardo-Vasquez-Realty-of-America.pdf" target="_blank" rel="noopener">TREC Information About Brokerage Services</a> · <a href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5.pdf" target="_blank" rel="noopener">TREC Consumer Protection Notice</a> · <a href="privacy.html">Privacy Policy</a></p>
+      <p class="eho-line"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M4 18L20 5l16 13"/><path d="M8 15v20h24V15"/><path d="M14 22h12M14 28h12"/></svg>Equal Housing Opportunity</p>
+      <p>© 2026 Stellar Realty Group. All rights reserved. Brokered by Realty of America</p>
+    </section>
   </div>
-</footer>
-
-<div class="sticky" id="sticky"><a class="btn btn-primary btn-block" href="#enter">Enter the giveaway</a></div>
-
+  <div class="sh-foot"><button type="button" class="btn btn-primary btn-block" data-close>Back to my entry</button></div>
+</dialog>
 
 <script>
-/* mobile sticky: hide until past hero CTA; video: poster first, lazy play */
+/* one screen page: start the River Walk clip that is visible, and tighten the intro once someone starts the form */
 (function(){
-  var sticky = document.getElementById('sticky');
-  var heroCta = document.getElementById('heroCta');
-  var enter = document.getElementById('enter');
-  var vid = document.getElementById('adVideo');
-  var pastHero = false, formIn = false;
-  function syncSticky(){
-    if(!sticky) return;
-    // desktop: always hide sticky (hero CTA is enough)
-    if(window.matchMedia('(min-width:860px)').matches){ sticky.classList.add('hide'); return; }
-    sticky.classList.toggle('hide', !pastHero || formIn);
+  var desk = window.matchMedia('(min-width:860px)');
+  function startVideo(){
+    var v = document.getElementById(desk.matches ? 'adVideoDesk' : 'adVideoTile');
+    if (!v || v.getAttribute('src')) { if (v) { var q = v.play(); if (q && q.catch) q.catch(function(){}); } return; }
+    if (!v.offsetParent) return;
+    v.src = 'assets/ad-loop.mp4'; v.load();
+    var p = v.play(); if (p && p.catch) p.catch(function(){});
   }
-  if(sticky){
-    sticky.classList.add('hide'); // start hidden on first paint
-    if(heroCta && 'IntersectionObserver' in window){
-      new IntersectionObserver(function(es){
-        var e = es[0];
-        pastHero = !e.isIntersecting && e.boundingClientRect.top < 0;
-        syncSticky();
-      }, {threshold:0, rootMargin:'0px'}).observe(heroCta);
-    }
-    if(enter && 'IntersectionObserver' in window){
-      new IntersectionObserver(function(es){
-        formIn = es[0].isIntersecting;
-        syncSticky();
-      }, {threshold:0.12}).observe(enter);
-    }
-    window.addEventListener('resize', syncSticky);
+  if (document.readyState === 'complete') setTimeout(startVideo, 300);
+  else window.addEventListener('load', function(){ setTimeout(startVideo, 300); });
+  if (desk.addEventListener) desk.addEventListener('change', startVideo);
+
+
+  // details sheet: everything that used to be below the form
+  var dlg = document.getElementById('info'), body = document.getElementById('infoBody');
+  function openInfo(key){
+    if (!dlg) return;
+    if (dlg.showModal) { if (!dlg.open) dlg.showModal(); } else dlg.setAttribute('open','');
+    var t = document.getElementById('i-' + key);
+    body.scrollTop = t ? t.offsetTop - 4 : 0;
+    mark(key);
   }
-  // Lazy video: set src when card near viewport, then play
-  if(vid && 'IntersectionObserver' in window){
-    var card = document.getElementById('heroVideo') || vid.parentElement;
-    var loaded = false;
-    new IntersectionObserver(function(es){
-      if(!es[0].isIntersecting) return;
-      if(!loaded){
-        loaded = true;
-        vid.src = 'assets/ad-loop.mp4';
-        vid.load();
-      }
-      var p = vid.play();
-      if(p && p.catch) p.catch(function(){});
-    }, {rootMargin:'200px', threshold:0.05}).observe(card);
-  } else if(vid){
-    vid.src = 'assets/ad-loop.mp4';
-    vid.setAttribute('autoplay','');
+  function mark(key){ [].forEach.call(dlg.querySelectorAll('[data-go]'), function(b){ b.classList.toggle('on', b.dataset.go === key); }); }
+  document.addEventListener('click', function(e){
+    var o = e.target.closest('[data-info]'); if (o){ e.preventDefault(); openInfo(o.dataset.info); return; }
+    var g = e.target.closest('[data-go]'); if (g){ var t = document.getElementById('i-' + g.dataset.go); if (t) body.scrollTo({top:t.offsetTop - 4, behavior:'smooth'}); mark(g.dataset.go); return; }
+    if (e.target.closest('[data-close]') || e.target === dlg){ if (dlg.close) dlg.close(); else dlg.removeAttribute('open'); }
+  });
+
+  var lbl = document.getElementById('stepLabel');
+  if (lbl && 'MutationObserver' in window){
+    var sync = function(){ document.body.classList.toggle('started', !/^Question 1 of/.test(lbl.textContent)); };
+    new MutationObserver(sync).observe(lbl, {childList:true, characterData:true, subtree:true});
   }
 })();
 </script>
-
 <script src="assets/motion-v1p.js"></script>
 <script src="assets/form-v1p.js"></script>
 </body>
