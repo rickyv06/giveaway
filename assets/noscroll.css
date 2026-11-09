@@ -242,3 +242,7 @@ body.ns{background:
   .ns-tile{display:none}
   body:not(.started) .ns-entry{justify-content:center;padding-bottom:10px}
 }
+
+.sh-strip.sh-one{grid-template-columns:1fr;max-width:300px}
+.sh-strip.sh-one img{height:auto;aspect-ratio:4/5;object-position:center 25%}
+@media (min-width:860px){.sh-strip.sh-one img{height:auto}}
