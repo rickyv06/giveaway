@@ -246,3 +246,4 @@ body.ns{background:
 .sh-strip.sh-one{grid-template-columns:1fr;max-width:300px}
 .sh-strip.sh-one img{height:auto;aspect-ratio:4/5;object-position:center 25%}
 @media (min-width:860px){.sh-strip.sh-one img{height:auto}}
+.sh-note{font-size:13.5px!important;font-weight:700;color:var(--ink)!important}
