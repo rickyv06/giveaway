@@ -247,3 +247,9 @@ body.ns{background:
 .sh-strip.sh-one img{height:auto;aspect-ratio:4/5;object-position:center 25%}
 @media (min-width:860px){.sh-strip.sh-one img{height:auto}}
 .sh-note{font-size:13.5px!important;font-weight:700;color:var(--ink)!important}
+/* last step note is plain text with links, not a flex row */
+.ns-entry .fstep[data-step="13"] .note{display:block;line-height:1.45}
+@media (max-width:859px) and (max-height:720px){
+  .ns-entry .fstep[data-step="13"] .fl textarea{min-height:72px}
+  .ns-entry .fstep[data-step="13"] .note{font-size:11px;margin-top:10px}
+}

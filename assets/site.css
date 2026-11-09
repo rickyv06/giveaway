@@ -221,7 +221,6 @@ footer .legal{border-top:1px solid #262626;margin-top:28px;padding-top:20px;disp
 /* rules / thanks */
 .doc{max-width:820px;margin:0 auto;padding:40px 20px 80px}
 .doc h1{font-size:36px;font-weight:900;letter-spacing:-.02em;line-height:1.05}
-.doc .draft{margin:18px 0 26px;background:#fff3c4;border:1px dashed #d9a400;border-radius:12px;padding:14px 16px;color:#5f4400;font-size:14px}
 .doc h2{font-size:18px;font-weight:900;margin:30px 0 8px;letter-spacing:.01em}
 .doc p,.doc li{color:#3d3a35;font-size:15.5px;margin-top:8px}
 .doc ol,.doc ul{padding-left:22px}
